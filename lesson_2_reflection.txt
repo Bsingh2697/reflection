@@ -1,3 +1,4 @@
+
 What happens when you initialize a repository? Why do you need to do it?
 It adds a hidden '.git' directory, but doesn't do an initial commit (you must specify all commits, even first one)inside .git directory, 
 there is a bunch of infrastructure to keep track of the repository history.
@@ -57,7 +58,6 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 The result is a new commit with 2 parents, one from each branch. This preserves reachability for all commits from both branches.
-
 
 
 
